@@ -1,0 +1,78 @@
+/*
+ Theme Name:   Rus Holod
+ Description:  Twentysixteen child
+ Author:       Ilia Grabko
+ Template:     twentysixteen
+ Version:      1.0.0
+*/
+
+#masthead{
+    background-color: #3D3D3D;
+    margin-bottom: 30px;
+}
+.main-navigation a:focus {
+    color: white;
+}
+.main-navigation a {
+    color: white;
+}
+.main-navigation .current-menu-item > a, .main-navigation .current-menu-ancestor > a {
+    /*font-weight: 700;*/
+    color: #999;
+}
+.site-inner {
+    max-width: 100%;
+}
+.site-header {
+    /*padding: 2.625em 7.6923%*/;
+}
+@media screen and (min-width: 44.375em) {
+    body:not(.custom-background-image):before,
+    body:not(.custom-background-image):after {
+        height: 0;
+    }
+    .site {
+        margin: 0;
+    }
+    .site-header {
+        padding: 0;
+    }
+    .site-header-menu {
+        /*margin: 1.3125em 0;*/
+    }
+}
+@media screen and (min-width: 56.875em) {
+    .site-header {
+        padding-left: 0;
+    }
+
+    .main-navigation li:hover > a,
+    .main-navigation li.focus > a {
+        color: white;
+    }
+}
+
+@media screen and (min-width: 61.5625em) {
+    .site-header {
+        padding: 0;
+    }
+
+    .site-branding,
+    .site-header-menu,
+    .header-image {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-right: 100px;
+    }
+}
+
+@font-face {
+    font-family: GothaPro;
+    src: url(./fonts/GothaProReg.otf);
+    font-weight: normal;
+}
+
+
+.site-header-main a {
+    font-family: GothaPro;
+}
