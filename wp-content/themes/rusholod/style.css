@@ -45,7 +45,9 @@
     .site-header {
         padding-left: 0;
     }
-
+    .widget {
+        font-size: 13px;
+    }
     .main-navigation li:hover > a,
     .main-navigation li.focus > a {
         color: white;
@@ -75,4 +77,20 @@
 
 .site-header-main a {
     font-family: GothaPro;
+}
+
+/* bootstrap carusel over*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-inner > .item.next,
+    .carousel-inner > .item.active.right {
+        left: 0;
+        -webkit-transform: translate3d(50%, 0, 0);
+        transform: translate3d(50%, 0, 0);
+    }
+    .carousel-inner > .item.prev,
+    .carousel-inner > .item.active.left {
+        left: 0;
+        -webkit-transform: translate3d(-50%, 0, 0);
+        transform: translate3d(-50%, 0, 0);
+    }
 }
